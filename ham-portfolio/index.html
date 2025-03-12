@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ham's Portfolio</title>
+  <meta property="og:title" content="Ham's Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/images/thumbnail.jpg">
+  <meta property="og:description" content="안녕하세요 함선아입니다">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="hamimg" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ham Sun ah">Sun ah Ham</h1>
+
+          <p class="title">Web Publisher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:waterpas20@naver.com" class="contact-link">waterpas20@naver.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:010-4521-1241" class="contact-link">010-4521-1241</a>
+            </div>
+
+          </li>
+<!-- 
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1987-09-20">1987-09-20</time>
+            </div> 
+
+          </li>
+-->
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>경기도 성남시</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+        <!-- 
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul> 
+        -->
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            저는 끊임없이 배우고 도전하며 성장하는 것을 즐기는 웹퍼블리셔이자, 프론트엔드 개발자를 꿈꾸는 함선아입니다.<br>
+            <br>
+            고등학교 졸업 후, 20대 초반에는 아웃백과 스크린골프장에서 근무하며 고객을 직접 응대하는 서비스업을 경험했습니다. <br>
+            이 과정에서 고객의 니즈를 빠르게 파악하고 대응하는 능력을 키웠으며, 커뮤니케이션 스킬과 문제 해결 능력을 쌓을 수 있었습니다.<br>
+            28세 이후에는 5년간 작은 기업체에서 세무, 인사, 총무 업무를 담당하며 기업의 운영과 관리 전반에 대한 이해를 넓혔습니다. <br>
+            사무 관리 뿐아니라, 조직 내 커뮤니케이션을 효율적으로 수행하는 역량을 갖추게 되었고, 이를 바탕으로 논리적 사고력과 세밀한 업무 수행 능력을 키울 수 있었습니다.<br><br>
+
+            2020년, HTML, CSS, JavaScript를 배우면서 웹 개발에 대한 흥미를 가지게 되었습니다. <br>
+            그 후 웹퍼블리싱을 직업으로 삼아 디자인에 따라 코드를 구추하며 실무 경험을 쌓아왔습니다.<br>
+            그러나 웹페이지의 외형뿐만 아니라 실제로 구현까지 할 수 있는 프론트엔드 개발자로 성장하고 싶다는 목표가 생겼고, <br>
+            현재 그 목표를 이루기 위해 프론트엔드 기술을 깊이 있게 공부하고 있습니다.<br>
+            <br>
+            저는 단순히 디자인하는 것이 아니라, 사용자의 경험을 직접 코드로 구현할 수 있는 개발자로 나아가고 싶습니다. <br>
+            인터랙티브한 디자인과 사용자 친화적인 웹 환경을 만드는 것이 저의 지향점이며,<br> 데이터 수집 및 분석까지 아우르는 디지털 마케팅에도 관심을 두고 있습니다.
+          </p>
+
+          <p>
+            사용자의 행동을 이해하고 데이터를 분석하며 보다 효과적인 UX/UI 환경을 제공하는 개발자가 되고 싶습니다.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Publishing</h4>
+
+                <p class="service-item-text">
+                  웹 표준성과 접근성에 부합하도록 웹 화면을 구현하며, 다양한 디바이스에서도 최적의 사용자 경험을 제공할 수 있도록 반응형 웹을 함께 구현합니다.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  브랜드의 아이덴티티를 효과적으로 전달하여 잠재적 고객을 확보하고 충성도를 높일 수 있도록 디자인합니다.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile App design</h4>
+
+                <p class="service-item-text">
+                  정확한 기획의도를 파악하고 사용자의 앱 효율성, 사용 빈도와 잔존율 향상을 위해 디자인합니다. 
+                </p>
+              </div>
+
+            </li>
+<!-- 
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+
+
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">자스텍엠(ViewCAR) </h4>
+
+              <span>2023.10 — 2024.12</span>
+
+              <p class="timeline-text">
+                홈페이지 유지보수, 신규 APP 디자인 및 퍼블리싱
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">창업의 신</h4>
+
+              <span>2023.07 - 2023.09</span>
+
+              <p class="timeline-text">
+                템테이션 이벤트 페이지 퍼블리싱, 그 외 홈페이지 (수정 유지보수)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">V Project (소속 프리랜서)</h4>
+
+              <span>2023.01 - 2023.05</span>
+
+              <p class="timeline-text">
+                템테이션 이벤트 페이지 퍼블리싱, 그 외 홈페이지 (수정 유지보수)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">더본병원</h4>
+
+              <span>2021.05 - 2022.12</span>
+
+              <p class="timeline-text">
+                홈페지이지 퍼블리싱, 일부 디자인 제작, 그누보드를 이용한 게시판 제작
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">아이테드</h4>
+
+              <span>2020.11 - 2021.04</span>
+
+              <p class="timeline-text">
+                홈페이지 기획, 디자인, 제작
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">하이미디어학원 웹콘텐츠
+                (포토샵/일러스트/HTML5/CSS3/JQUERY)
+                전문가 과정 수료</h4>
+
+              <span>2019 - 2020</span>
+
+              <p class="timeline-text">
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">웹디자인기능사 취득</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">여주대학교(중퇴)</h4>
+
+              <span>2006 - (중퇴)</span>
+
+              <p class="timeline-text">
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Publishing ( html, CSS, js )</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design ( Ps, Figma )</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+<!-- 
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li> -->
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cafe24</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Homepage</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cafe24</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Homepage</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Cafe24</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="homepage">
+              <a href="./project-detail/jastecm.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/homepage3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">자스텍엠</h3>
+
+                <p class="project-category">Homepage</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="homepage">
+              <a href="./project-detail/thebone.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/homepage1.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">더본병원</h3>
+
+                <p class="project-category">Homepage</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="homepage">
+              <a href="./project-detail/ited.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/homepage2.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">아이테드</h3>
+
+                <p class="project-category">Homepage</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <!-- <a href="./project-detail/viewcar.html"> -->
+              <a href="https://www.figma.com/design/oxELYe3H4GGcA8cyHN2Ydo/%EB%B7%B0%EC%B9%B4-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%95%88?node-id=6484-33780&t=eY7NdJYYbb1wzIbl-1" target="_blank" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/app-1.jpg" alt="viewcar" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">View CAR</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <!-- <a href="./project-detail/iltok.html"> -->
+              <a href="https://www.figma.com/design/SxXeegWmPvYo9k9WBGGRW6/%EC%9D%BC%ED%86%A1_%EA%B8%B0%EC%97%85%2C-%EA%B5%AC%EC%A7%81?node-id=0-1&m=dev&t=xUZjKvvyHxz8wTOd-1" target="_blank" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/app-2.jpg" alt="viewcar" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">iltok</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cafe24">
+              <!-- <a href="./project-detail/kaen.html"> -->
+              <a href="https://www.kaenkorea.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cafe24-1.jpg" alt="kaen" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KAEN</h3>
+
+                <p class="project-category">Cafe24</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cafe24">
+              <!-- <a href="./project-detail/gway.html"> -->
+              <a href="https://gwaycos.cafe24.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cafe24-2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">gway cosmetics</h3>
+
+                <p class="project-category">Cafe24</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+<!--  
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+      
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article> 
+-->
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
